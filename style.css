@@ -1,0 +1,21 @@
+
+#title {
+    font-size: xx-large;
+    text-align: center;
+}
+
+#grid {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.circle {
+    text-align: center;
+    border: solid red;
+    border-radius: 50%;
+    width: clamp(10px, 200px, 400px);
+    /* max-width: 200px; */
+}
